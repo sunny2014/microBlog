@@ -1,6 +1,6 @@
 # シンプルなブログ
 
-![](public/img-cover.png)
+![样式](public/img-cover.png)
 
 microCMS 公式のシンプルなブログのテンプレートです。
 
@@ -12,7 +12,7 @@ Node.js 18 以上
 
 ルート直下に`.env`ファイルを作成し、下記の情報を入力してください。
 
-```
+```shell
 MICROCMS_API_KEY=xxxxxxxxxx
 MICROCMS_SERVICE_DOMAIN=xxxxxxxxxx
 BASE_URL=xxxxxxxxxx
@@ -33,19 +33,19 @@ microCMS 管理画面の URL（https://xxxxxxxx.microcms.io）の xxxxxxxx の�
 
 ## 開発の仕方
 
-1. パッケージのインストール
+1 パッケージのインストール
 
 ```bash
 npm install
 ```
 
-2. 開発環境の起動
+2 開発環境の起動
 
 ```bash
 npm run dev
 ```
 
-3. 開発環境へのアクセス  
+3 開発環境へのアクセス  
    [http://localhost:3000](http://localhost:3000)にアクセス
 
 ## 画面プレビューの設定
@@ -65,4 +65,4 @@ npm run dev
 
 リポジトリを紐付け、環境変数を `Environment Variables` に登録後、デプロイしてみましょう。
 
-![](public/img-vercel-settings.png)
+![样式](public/img-vercel-settings.png)
